@@ -1,0 +1,44 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    display:flex;
+    height:50px;
+    margin:1% 0 0 0;
+    align-items: center;
+}
+.logo{
+    width:3%;
+    margin:0 2% 0 2.5%;
+    
+}
+.categories{
+    padding:1.5%;    
+    font-weight: 500;
+    font-size: .8rem;
+}
+.txt-box{
+    /* margin:1% 0% 2.5% 0; */
+    margin-left:3%;
+    height:60%;
+    width:20%;
+}
+.header-btn{
+    display:flex;
+    flex-direction: column;
+    font-size:.6rem;
+    align-items: center;
+    width:8%;    
+
+}
+.header-imgs{
+    width:20%;
+}
+.ss-img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.display{
+    display: block;
+}
