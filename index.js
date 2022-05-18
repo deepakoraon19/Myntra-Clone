@@ -15,9 +15,12 @@ let slideShow = () => {
       slideShowImg[i].classList.remove("display");
       if (i == slideShowImg.length - 1) {
         slideShowImg[0].classList.add("display");
+        i++;
       }
-      slideShowImg[++i].classList.add("display");
+      else{
+        slideShowImg[++i].classList.add("display");
+      }
     }
-  }, 1000);
+  }, 5000);
 };
 slideShow();

@@ -1,10 +1,11 @@
 body{
     font-family: 'Roboto', sans-serif;
+    color: rgb(85, 85, 85);
 }
 .header{
     display:flex;
     height:50px;
-    margin:1% 0 0 0;
+    margin:1% 0 1% 0;
     align-items: center;
 }
 .logo{
@@ -35,6 +36,7 @@ body{
     width:20%;
 }
 .ss-img{
+    transition: all .75s ease;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -42,4 +44,21 @@ body{
 }
 .display{
     display: block;
+    opacity:1;
+}
+.deal-of-the-day{
+    width:70%;
+    display:flex; 
+    flex: 0 0 100%;
+}
+.dotd-img{
+    /* width:12%; */
+}
+p{
+    margin: 3% 0 3% 3%;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .25rem;
+    
+
 }
