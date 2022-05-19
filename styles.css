@@ -75,3 +75,24 @@ p{
     flex-wrap:wrap;
     justify-content: center;
 }
+.buttons{
+    display:flex;
+    justify-content: center;
+    
+}
+.round-btn{
+    /* display: none; */
+    margin:5vh 1vw;
+    background-color: rgb(212, 212, 212);
+    height:8px;
+    width:8px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.grey{
+    background-color: grey;
+
+}
